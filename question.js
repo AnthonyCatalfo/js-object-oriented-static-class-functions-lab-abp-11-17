@@ -20,9 +20,4 @@ class Question  {
     })
   }
 }
-User._All = []
-
-let sarah = new User("Sarah", "sarah@flatironschool.com")
-let bob = new User("Bob", "bob@flatironschool.com")
-
-let matchingUser = User.FindByEmail("sarah@flatironschool.com")
+Question._All = []
