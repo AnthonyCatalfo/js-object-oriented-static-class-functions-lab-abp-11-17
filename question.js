@@ -3,15 +3,15 @@ class Question  {
   constructor(question){
     this.question = question;
 
-    this.save();
+    this.save()
   }
 
   save(){
-    this.constructor._All.push(this);
+    this.constructor._All.push(this)
   }
 
   static All() {
-    return this._All;
+    return this._All
   }
 
   static Find(id){
@@ -19,5 +19,5 @@ class Question  {
 
     }
   }
-}
+
 Question._All = [];
